@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/assets/presets/noir.d.ts","./src/app.vue","./src/components/grid.vue","./src/components/hero.vue","./tests/index.test.ts"],"version":"5.6.3"}

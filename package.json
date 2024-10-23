@@ -1,0 +1,37 @@
+{
+  "name": "aitesting",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "npx playwright test --ui"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.1.0",
+    "tailwindcss-primeui": "^0.3.4",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.48.0",
+    "@primevue/auto-import-resolver": "^4.1.0",
+    "@types/node": "^22.7.5",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/compiler-sfc": "^3.5.11",
+    "@vue/test-utils": "^2.4.6",
+    "playwright": "^1.48.0",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.8",
+    "vitest-browser-vue": "^0.0.1",
+    "vue-tsc": "^2.1.6"
+  }
+}
