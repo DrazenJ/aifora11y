@@ -1,5 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# AI for A11y
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a demo project used for the Frontmania talk of 2024 on the same subject by me
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+To make it work you will need a ChatGPT account with api keys set up in your .env:
+**VITE_ORGANIZATION**=org-0103xxxxxxxxxxxxxxxx
+**VITE_PROJECT**=proj_2RBxxxxxxxxxxxxxxxxxxxxx
+**VITE_OPENAI_API_KEY**=sk-proj-dA9gkXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+After installing with `npm i` and setting the env variables run
+```
+npm run dev
+npm run test
+```
